@@ -86,7 +86,8 @@ a:hover{
     .content .center-image{
         left: 0;
         right: 0;
-        height: auto;
+        height: 100px;
+        padding: 5px;
         margin-top: 80px;
     }
     .center-image .marqe{
