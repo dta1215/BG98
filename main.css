@@ -84,15 +84,17 @@ a:hover{
 }
 @media screen and (max-width: 500px){
     .content .center-image{
+        position: absolute;
         left: 0;
         right: 0;
-        height: 100px;
+        height: 60px;
         padding: 5px;
-        margin-top: 80px;
+        margin-top: 90px;
+
     }
     .center-image .marqe{
-        margin-top: 90px;
-        font-size: 2vh;
+        margin-top: 55px;
+        font-size: 1.5vh;
     }
     .right > .right-header{
         font-size: 3vw;
