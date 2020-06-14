@@ -22,9 +22,9 @@
     float: left;
     padding-top: 20px;
 }
-.right-header{
+.right{
     float: right;
-    margin-top: 12px;
+    padding-top: 20px;
 }
 a:hover{
     background-color: #AECDE8;
@@ -94,6 +94,11 @@ a:hover{
         margin-top: 90px;
         font-size: 2vh;
     }
+    .right > .right-header{
+        font-size: 3vw;
+        display: inline;
+    }
+
 }
 /* .content .center-image{
     position: absolute;
