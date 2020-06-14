@@ -1,0 +1,82 @@
+CODE DAU TIEN
+
+
+/* header{
+    overflow: hidden;
+    background-color: whitesmoke;
+    height: 4em;
+} HEADER lan dau tien su dung gio khong dung nua*/
+/* .top{
+    background-color: whitesmoke;
+    height: 5vw;
+    /* width: auto; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    display: inline-block;
+}
+.btn-header{
+    text-decoration: none;
+    font-size: 15px;
+    padding: 1vw;
+    font-family: Verdana, sans-serif;
+    color: black;
+}
+.btn-header:hover{
+    background-color: #AECDE8;
+}
+#home{
+    float: left;
+}
+.right-header{
+    float: right;
+} */
+
+
+
+
+
+CODE THU LAN THU 2 co RESPONSIVE
+-------------------------------------------------------------------------------------------
+
+.header{
+    overflow: hidden;
+    background-color: whitesmoke;
+    padding: 10px 1px;
+    margin: -8px -8px 0 -8px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    box-shadow: 0 2px rgba(56, 87, 107, 0.28);
+}
+.header a{
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 25px;
+    font-family: Verdana, sans-serif;
+}
+.header a.left-header{
+    font-size: 20px;
+    font-weight: bold;
+}
+.header a:hover{
+    background-color: #AECDE8;
+}
+.header a.right-header{
+    float: right;
+}
+
+
+
+
+
+
+
+

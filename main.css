@@ -1,36 +1,35 @@
-/* header{
-    overflow: hidden;
+.top{
     background-color: whitesmoke;
-    height: 4em;
-} HEADER lan dau tien su dung gio khong dung nua*/
-header{
-    background-color: whitesmoke;
-    height: 4em;
-    width: auto;
+    width: 100%;
+    height: 60px;
+    box-shadow: 0 2px rgba(56, 87, 106, 0.3);
+    /* width: auto; */
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     z-index: 1;
+    overflow: hidden;
 }
-.top .btn-header{
+.top a{
     text-decoration: none;
-    padding: 14px 10px;
     font-size: 16px;
+    padding: 1vw;
     font-family: Verdana, sans-serif;
     color: black;
 }
-.btn-header:hover{
-    background-color: #AECDE8;
-}
 .top #home{
     float: left;
-    margin-top: 8px;
+    padding-top: 20px;
 }
-.top .right-header{
+.right-header{
     float: right;
-    margin-top: 23px;
+    margin-top: 12px;
 }
+a:hover{
+    background-color: #AECDE8;
+}
+
 
 /* Content */
 .content{
@@ -82,6 +81,18 @@ header{
     margin-top: 125px;
     font-family: 'Times New Roman', Times, serif;
     letter-spacing: 1.4px;
+}
+@media screen and (max-width: 500px){
+    .content .center-image{
+        left: 0;
+        right: 0;
+        height: auto;
+        margin-top: 80px;
+    }
+    .center-image .marqe{
+        margin-top: 90px;
+        font-size: 2vh;
+    }
 }
 /* .content .center-image{
     position: absolute;
