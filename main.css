@@ -52,23 +52,22 @@ header{
 .content > .center-image{
     position: absolute;
     background-color: rgba(0,0,0,0.5);
-    height: 150px;
     left: 150px;
     right: 150px;
     margin-top: 250px;
-    width: auto;
     text-align: center;
     text-overflow: ellipsis;
+    overflow: hidden;
 }
 .center-image > .center{
     position: absolute;
     width: 100%;
     font-family: 'Times New Roman', Times, serif;
     color: #cccc;
-    font-size: 4.5em;
+    font-size: 6vw;
     margin-top: 30px;
-    animation: moveLeft 3s infinite;
-    animation-direction: alternate;    
+    /* animation: moveLeft 3s infinite;
+    animation-direction: alternate;     */
 }
 .center-image > .center:hover{
     animation-play-state: paused;
