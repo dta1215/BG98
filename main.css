@@ -43,54 +43,52 @@ a:hover{
     padding-left: 15px;
     height: auto;
 }
-.content #main-imagecontent{
+.content .top-content {
     position: relative;
     width: 100%;
-    height: auto;
+    height: 400px;
 }
-.content > .center-image{
-    position: absolute;
-    background-color: rgba(0,0,0,0.5);
-    left: 150px;
-    right: 150px;
-    margin-top: 250px;
-    text-align: center;
-    text-overflow: ellipsis;
-    overflow: hidden;
-}
-.center-image > .center{
+.top-content #main-imagecontent{
     position: absolute;
     width: 100%;
-    font-family: 'Times New Roman', Times, serif;
+}
+.top-content .center{
+    width: 80%;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0,0,0,0.5);
+    text-align: center;
+    text-overflow: ellipsis;
+    font-size: 7vw;
     color: #cccc;
-    font-size: 6vw;
-    margin-top: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
     /* animation: moveLeft 3s infinite;
     animation-direction: alternate;     */
-}
-.center-image > .center:hover{
+/* .center-image > .center:hover{
     animation-play-state: paused;
 }
 @keyframes moveLeft{
     from{left: -10px;}
     to{left: 30px;};
-}
-.center-image > .marqe{
+} */
+.center .marqe{
     color: whitesmoke;
-    font-size: 1.1em;
+    font-size: 2vw;
     margin-top: 125px;
     font-family: 'Times New Roman', Times, serif;
     letter-spacing: 1.4px;
 }
 @media screen and (max-width: 500px){
     .content .center-image{
-        position: absolute;
         left: 0;
         right: 0;
         height: 60px;
         padding: 5px;
-        margin-top: 90px;
-
+        margin-top: 70px;
+        
     }
     .center-image .marqe{
         margin-top: 55px;
